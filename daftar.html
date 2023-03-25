@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Academy</title>
+    <link rel="shortcut icon" href="asset/uacademy.png" type="image/png">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Ke css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-detail">
+        <h2>Formulir Pendaftaran</h2>
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama"><br>
+
+        <label for="Gender">Gender</label> <br>
+        <input type="radio" id="female" name="gender" value="Female">
+
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="male">Male</label><br>
+        <label for="job">Job</label><br>
+
+        <input type="checkbox" id="p1" name="p1" value="Product Manager">
+        <label for="p1"> Product Manager </label><br>
+
+        <input type="checkbox" id="p2" name="p2" value="Associate Product Manager">
+        <label for="p2"> Associate Product Manager</label><br>
+        
+        <label for="textAre"> Describe Yourself </label><br>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+
+        <label for="angkatan">Angkatan</label> <br>
+        <select id="angkatan" name="angkatan">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option><br>
+        </div>
+    </form>
+    <input class="btn" type="submit" value="Daftar" id="button">
+</body>
+</html>
